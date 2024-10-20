@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arima", system-ui;
+}
+
+
+.nav{
+    width: 100%;
+    height: 90px;
+    background-color:#14081f ;
+    color: white;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.right{
+    width: 50%;
+}
+
+.right ul{
+    display: flex;
+    gap: 50px;
+    padding-top:30px;
+    padding-left: 200px;
+    list-style: none;
+}
+
+.right ul li:hover{
+    color: #ea067e;
+    text-decoration: underline #ea067e;
+}
+
+.about-img{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./image/event-planet-indore.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.about{
+    width: 100%;
+    padding-block: 50px;
+    text-align: center;
+}
+
+.about h1{
+    font-size: 40px;
+}
+
+.grid{
+    padding-block: 5vh;
+    padding-inline: 10vw;
+}
+
+
+.boxes{  
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns:  auto auto auto ;
+  grid-template-rows:  auto  auto;
+}
+
+.box{
+    padding-inline: 20px;
+    padding-block: 5px;
+}
+
+.img1{
+    width: 100%;
+    height: 80%;
+    background-image:url(./image/blog-01.jpg) ;
+    background-position: center;
+    background-size: cover
+}
+
+.img2{
+    width: 100%;
+    height: 80%;
+    background-image:url(./image/blog-02.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.img3{
+    width: 100%;
+    height: 80%;
+    background-image:url(./image/blog-03.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.img4{
+    width: 100%;
+    height: 80%;
+    background-image:url(./image/blog-04.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.img5{
+    width: 100%;
+    height: 80%;
+    background-image:url(./image/blog-05.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.img6{
+    width: 100%;
+    height: 80%;
+    background-image:url(./image/blog-06.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.text{
+    width: 290px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 230px;
+    left: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(188, 188, 188);
+}
+
+.text p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.text:hover{
+    background-color: #ea067e;
+    cursor: pointer;
+}
+
+.text p:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.grid2{
+    width: 100%;
+    padding-block:30px;
+    background-color:#16091f ;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.heading p{
+color: #ea067e;
+font-weight: 900;
+font-size: 15px;
+}
+
+.heading h1{
+    font-size: 40px;
+}
+
+
+.boxe1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.boxe2{
+    width: 70%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns:  auto auto auto ;
+    grid-template-rows:  auto  auto;
+}
+
+.box1{
+    border: 1px solid #2e2236;
+    border-top: none;
+    border-left: none;
+}
+
+.box2{
+    border: 1px solid #2e2236;
+    border-top: none;
+}
+
+.box3{
+    border: 1px solid #2e2236;
+    border-top: none;
+    border-right: none;
+}
+
+.box4{
+    border: 1px solid #2e2236;
+    border-left: none;
+    border-bottom: none;
+}
+
+.box5{
+    border: 1px solid #2e2236;
+    border-bottom: none;
+}
+
+.box6{
+    border: 1px solid #2e2236;
+    border-bottom: none;
+    border-right: none;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.text1 h4{
+    padding-block: 20px;
+    font-size: 25px;
+}
+
+.text1 p{
+    padding-bottom: 5px;
+}
+
+.text2{
+    padding-block: 10px;
+}
+
+.text3{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.container1{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #d7d7d7;
+    display: flex;
+    gap: 10px;
+}
+
+.container1 p{
+ font-size: 20px;
+ padding-top: 5px;
+}
+
+.container1 p a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+.img{
+    width: 100%;
+    background-color: #14081f;
+    display: flex;
+    justify-content: center;
+}
